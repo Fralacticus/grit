@@ -208,10 +208,9 @@ bool tmap_init_from_dib(Tilemap *tm, CLDIB *dib, int tileW, int tileH,
 		rdx = dib_copy(extTiles, 0, 0, tileW, (mapN+rdxN)*tileH, false);
 	}
 	else
-	{
-		rdxN= 1;					
+	{		
+		rdxN = 0;
 		rdx = dib_alloc(tileW, (mapN+rdxN)*tileH, dibB, NULL);
-		memset(dib_get_img(rdx), 0, dib_get_pitch(rdx)*tileH);
 		dib_pal_cpy(rdx, dib);
 	}
 
