@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libgrit">
+      <UniqueIdentifier>{b29dc5c3-cb5c-44b9-84ed-caae55c86b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srcgrit">
+      <UniqueIdentifier>{74600d5b-2d68-4de9-bb2a-a434797fdff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cldib">
+      <UniqueIdentifier>{4d1e2cb2-c86c-4e8f-9f7f-a9ba1af4c143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extlib">
+      <UniqueIdentifier>{eace6c1a-bd42-461e-b409-75eaebc77fbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libgrit\cprs.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\cprs_huff.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\cprs_lz.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\cprs_rle.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_core.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_huff.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_lz.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_misc.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_prep.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_rle.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_shared.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\grit_xp.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\logger.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="libgrit\pathfun.cpp">
+      <Filter>libgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="srcgrit\cli.cpp">
+      <Filter>srcgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="srcgrit\grit_main.cpp">
+      <Filter>srcgrit</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_adjust.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_conv.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_core.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_tmap.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_tools.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib\cldib_wu.cpp">
+      <Filter>cldib</Filter>
+    </ClCompile>
+    <ClCompile Include="extlib\fi.cpp">
+      <Filter>extlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libgrit\cprs.h">
+      <Filter>libgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="libgrit\grit.h">
+      <Filter>libgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="libgrit\grit_core.h">
+      <Filter>libgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="libgrit\logger.h">
+      <Filter>libgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="libgrit\pathfun.h">
+      <Filter>libgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="srcgrit\cli.h">
+      <Filter>srcgrit</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib\cldib.h">
+      <Filter>cldib</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib\cldib_core.h">
+      <Filter>cldib</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib\cldib_tmap.h">
+      <Filter>cldib</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib\cldib_tools.h">
+      <Filter>cldib</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib\winglue.h">
+      <Filter>cldib</Filter>
+    </ClInclude>
+    <ClInclude Include="extlib\fi.h">
+      <Filter>extlib</Filter>
+    </ClInclude>
+    <ClInclude Include="grit_version.h" />
+  </ItemGroup>
+</Project>
